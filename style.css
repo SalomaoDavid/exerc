@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+body{
+    font-size: justify;
+    padding: 5px;
+    width: auto;
+    height: auto;
+   
+    font-family: 'BebasNeue-Regular';
+    src: url('BebasNeue-Regular.ttf') format('TrueType');
+    background-color: rgb(225, 226, 226);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    padding: 10px;
+    text-indent: 20px;
+}
+
+p > strong{
+    color: darkblue;
+}
+
+h3{
+    text-align: center;
+}
+
+h2{
+    margin: 5px;
+   padding: 0px;
+    color: white;
+    background-color: chartreuse;
+}
+
+header > h1{
+    margin: 6px;
+    text-align: center;
+    padding: 7px;
+    text-indent: 20px;
+    color: white;
+}
+
+header > h1{
+    padding: 0px;
+}
+
+main{
+    min-width: 100px;
+    max-width: 800px;
+    margin: auto;
+ margin-bottom: 5px;
+ padding: 2px;
+ padding-top: 0px;
+    background-color: #ada9a9;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.535);
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    padding: 1px;
+    margin: 10px;
+    border-radius: 10%;
+    box-shadow: 2px 3px  5px rgba(17, 16, 16, 0.528);
+    
+
+}
+
+header > img {
+width: 60px;
+height: 60px;
+ margin-left: 90%;
+ margin-top: 10%;
+ border-radius: 70%;
+ margin-top: 1%;
+}
+
+article > h2{
+
+    border-radius: 10%;
+    text-indent: 20px;
+}
+
+article{
+    color: black;
+    background-color: rgba(253, 246, 246, 0.727);
+    margin: 2px;
+    padding:5px;
+    border-radius: 3%;
+}
+  section{
+      text-align: center;
+  }  
+
+aside{
+    background-color: rgba(160, 114, 57, 0.631);
+    border-radius: 10%;
+    margin: 10px;
+   
+}
+
+nav{
+    padding: 5px;
+    text-align: center;
+   margin-bottom: 20px;
+    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.50);
+    background-color: rgb(85, 83, 83);
+    border-radius: 5%;
+    width: auto;
+    height: auto;
+    
+    
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+}
+
+nav > a:hover {
+    color:red;
+    text-decoration: underline;
+    background-color: #888888;
+
+}
+
+aside > ul {
+    margin-left: 10px;
+    padding: 5px;
+    list-style: inside;
+    columns: 2;
+
+}
+
+footer{
+    width: auto;
+    padding: 0px;
+    margin: 7px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
