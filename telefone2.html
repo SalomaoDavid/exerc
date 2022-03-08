@@ -10,5 +10,50 @@
 <body>
     <h1>Para falar Conosco</h1>
     <p>Fale Conoscosempre que precisares, nós estaremos sempre dispostos a atende-lo. Abaixo seguem-se os nossos contactos e a forma como vc pode entrar em contacto consco, ou mesmo para ter um dos nossos serviços, seja ela por entrega ao domicílio bastando apenas preencher o formulário, ou então vier ter conosco mesmo</p>
+    <h2>Os nossos serviços.</h2>
+   <p> De momento os nossos serviços só estão operando apenas no território angolano sob a liderança do sr <strong>Salomão David</strong></p>
+
+    <h3>Priencha o formulário para ter acesso aos nossos serviços.</h3> 
+
+ <form>
+
+    <fieldset id="usuario">
+        <legend>Indentificação do paciente.</legend>
+       <p> <label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" size="20" maxlength="100" placeholder="Nome completo"></p>
+       <p> Senha: <input type="password" name="tSenha" id="cSenha" size="20" maxlength="20" placeholder="Digite a senha"></p>
+       <p> Email: <input type="email" name="tEmail" id="cEmail" size="20" maxlength="60" placeholder="digite o email"></p>
+        <fieldset id="sexo"><legend>Sexo</legend>
+            Sexo:
+              <input type="radio" name="tSexo" id="cMasc" checked><label for="cMasc">Masculino</label> <br/>
+              <input type="radio" name="tSexo" id="cFem"><label for="cFem"> Feminino</label>
+        </fieldset>
+        <p>Data de nascimento: <input type="date" name="tNasc" id="cNasc" placeholder="digite sua data de nascimento"></p>
+    </fieldset>
+
+  <fieldset id="Endereço">
+      <legend>Endereço do paciente</legend>
+       <p> Província: <input type="text" name="tProv" id="cProv" size="15" maxlength="50" placeholder="indique a sua provincia"></p>
+       <p> Munícipio:</p>
+       <p> Bairro   :</p>
+       <p> Número   : <input type="number" name="tNum" id="cNum" min="0" max="99999"></p>
+  </fieldset>
+
+<fieldset id="inform">
+      <legend>Informções do paciente</legend>
+        Nível de urgência:
+        Mensagem:
+</fieldset>
+<fieldset id="pedido">
+    
+      <legend>Quero um médico</legend>
+    
+      Preciso de médico urgente
+        terapeuta
+        Quantidade de médicos:
+        Preço total: kz.
+</fieldset>
+
+    [Botão enviar]</form>
+
 </body>
 </html>
