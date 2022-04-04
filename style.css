@@ -1,6 +1,9 @@
 @charset "utf-8";
 
 body{
+    max-width: 1800px;
+    min-width: 80px;
+    align-items: center;
     font-size: justify;
     padding: 5px;
     width: auto;
@@ -37,15 +40,10 @@ h2{
 }
 
 header > h1{
-    margin: 6px;
-    text-align: center;
-    padding: 7px;
+    font-family: 'BebasNeue-Regular';
+    align-items: center;
     text-indent: 20px;
     color: white;
-}
-
-header > h1{
-    padding: 0px;
 }
 
 main{
@@ -54,7 +52,6 @@ main{
     margin: auto;
  margin-bottom: 5px;
  padding: 2px;
- padding-top: 0px;
     background-color: #ada9a9;
     box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.535);
 }
@@ -70,13 +67,18 @@ img{
 
 }
 
+header{
+    padding-bottom: 5px;
+    height: 5px;
+}
+
 header > img {
+float: left;
 width: 60px;
 height: 60px;
- margin-left: 90%;
- margin-top: 10%;
+margin-top: 10px;
+ margin-left: 92%;
  border-radius: 70%;
- margin-top: 1%;
 }
 
 article > h2{
@@ -119,14 +121,15 @@ nav{
 nav > a {
     color: white;
     text-decoration: none;
-    margin: 10px;
-    padding: 5px;
+    margin: 30px;
+    padding: 10px;
 }
 
 nav > a:hover {
     color:red;
     text-decoration: underline;
     background-color: #888888;
+   
 
 }
 
